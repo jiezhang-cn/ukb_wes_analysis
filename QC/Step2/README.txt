@@ -9,6 +9,7 @@ We then conducted the Variant QC on the expored plink files of exome data in the
   • those deviating present in regions of low complexity
 
  The ref file for the regions of low complexity was download from https://github.com/lh3/varcmp/raw/master/scripts/LCR-hs38.bed.gz
+ The above scripts were run in the instance of mem2_ssd1_v2_x32, and the total of run time was ~10 hours.
 
 Reference:
 1) Li H. Toward better understanding of artifacts in variant calling from high-coverage samples. Bioinformatics. 2014;30(20):2843-2851.
