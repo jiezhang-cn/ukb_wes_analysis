@@ -25,7 +25,7 @@ Principal components of ancestry (PCA) was then calculated using high-quality SN
 and the first 10 PCA were used as covariates in association tests for common and rare variants.
 
 5) Finally, we predicted genetic ancestries from the high-quality SNPs subset using peddy v0.4.2 with the ancestry labelled 1,000 Genomes Project as reference, as in `Predicted_ancestry.sh`.  
-We further restricted the European ancestry cohort to those (410,831) had a Pr(European) ancestry prediction of more than 0.9 and within ±4 s.d. across the top four principal component means;
+We further restricted the European ancestry cohort to those (410,831) had a Pr(European) ancestry prediction of more than 0.95 and within ±4 s.d. across the top four principal component means;
 Through this step (`Ancestry_ukb.r`), we also identified and used 8,344 (Pr(African) > 0.6), 1,172 (Pr(Hispanic or Latin American) > 0.6), 
 703 (Pr(East Asian) > 0.6) and 8,911 (Pr(South Asian) > 0.6) ukb participants for ancestry-independent analyses. 
 
