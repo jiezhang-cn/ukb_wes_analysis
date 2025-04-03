@@ -46,15 +46,6 @@ done
 # snpEff dbnsfp
 dx download "project-GYXj5k0JzYzPbyBYx8V7BFg3:/dbNSFP5.1a_grch38.*"
 
-for i in {1..22}; 
-do
-  java -jar /opt/notebooks/snpEff/snpEff/SnpSift.jar dbnsfp \
-  -f genename,Ensembl_geneid,Uniprot_acc,SIFT_pred,Polyphen2_HDIV_pred,MutationTaster_pred,Polyphen2_HVAR_pred,CADD_phred,MetaSVM_pred,REVEL_score,AlphaMissense_pred \
-  -db /opt/notebooks/dbNSFP5.1a_grch38.gz \
-  -g hg38 \
-  /opt/notebooks/input/ukb_wes_eur_chr${i}_snpeff.vcf \
-  > /opt/notebooks/output/ukb_wes_eur_chr${i}_SnpEff_five.vcf
-  
-  dx upload -r /opt/notebooks/output/ukb_wes_eur_chr${i}_SnpEff_five.vcf --destination "project-GYXj5k0JzYzPbyBYx8V7BFg3:/Jzhang_data/exome_data/Annotation/SnpEff/output/"
+for i in {1..22}; do   java -jar /opt/notebooks/snpEff/snpEff/SnpSift.jar dbnsfp   -f genename,Ensembl_geneid,Uniprot_acc,SIFT_pred,Polyphen2_HDIV_pred,MutationTaster_pred,Polyphen2_HVAR_pred,CADD_phred,MetaSVM_pred,REVEL_score,AlphaMissense_pred   -db /opt/notebooks/dbNSFP5.1a_grch38.gz   -g hg38   /opt/notebooks/input/ukb_wes_eur_chr${i}_snpeff.vcf   > /opt/notebooks/output/ukb_wes_eur_chr${i}_SnpEff_five.vcf; done
 
-done
+dx upload -r /opt/notebooks/output//ukb_wes_eur_chr*_SnpEff_five.vcf --destination "project-GYXj5k0JzYzPbyBYx8V7BFg3:/Jzhang_data/exome_data/Annotation/SnpEff/output/"
