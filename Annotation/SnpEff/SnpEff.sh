@@ -46,7 +46,8 @@ done
 # snpEff dbnsfp
 dx download "project-GYXj5k0JzYzPbyBYx8V7BFg3:/dbNSFP5.1a_grch38.*"
 
-for i in {1..22}; do
+for i in {1..22}; 
+do
   java -jar /opt/notebooks/snpEff/snpEff/SnpSift.jar dbnsfp \
   -f genename,Ensembl_geneid,Uniprot_acc,SIFT_pred,Polyphen2_HDIV_pred,MutationTaster_pred,Polyphen2_HVAR_pred,CADD_phred,MetaSVM_pred,REVEL_score,AlphaMissense_pred \
   -db /opt/notebooks/dbNSFP5.1a_grch38.gz \
