@@ -2,9 +2,7 @@
 ---
 
 Cardiovascular-kidney-metabolic syndrome：
-Cardiovascular-kidney-metabolic (CKM) syndrome is defined as a health disorder attributable to connections among obesity, diabetes, chronic kidney disease (CKD), 
-and cardiovascular disease (CVD), including heart failure, atrial fibrillation, coronary heart disease, stroke, and peripheral artery disease. 
-CKM syndrome includes those at risk for CVD and those with existing CVD.
+Cardiovascular-kidney-metabolic (CKM) syndrome is defined as a health disorder attributable to connections among obesity, diabetes, chronic kidney disease (CKD), and cardiovascular disease (CVD), including heart failure, atrial fibrillation, coronary heart disease, stroke, and peripheral artery disease. CKM syndrome includes those at risk for CVD and those with existing CVD.
 
 A Presidential Advisory From the American Heart Association provides a CKM staging construct that reflects the pathophysiology, spectrum of risk, and opportunities for prevention and care optimization within CKM syndrome: 
 stage 0, no CKM risk factors; 
@@ -12,7 +10,6 @@ stage 1, excess or dysfunctional adiposity;
 stage 2, metabolic risk factors (hypertriglyceridemia, hypertension, diabetes, metabolic syndrome) or moderate- to high-risk chronic kidney disease; 
 stage 3, subclinical CVD in CKM syndrome or risk equivalents (high predicted CVD risk or very high-risk CKD); 
 stage 4, clinical CVD in CKM syndrome.
-
 
 ---
 
