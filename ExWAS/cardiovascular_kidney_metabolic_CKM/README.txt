@@ -1,4 +1,4 @@
-####  Annotation  ####
+####  ExWAS  ####
 ---
 
 Cardiovascular-kidney-metabolic syndrome：
